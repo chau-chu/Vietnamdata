@@ -63,7 +63,12 @@ forv q=2/16{     //transform constr2 to constr1 --> q-1
 		recode constra`e'(1=3)(2=2)(3=1),gen(constr`e')
 		tab constr`e'	
 	}
-} 
+}
+
+
+
+
+
 
 
 
