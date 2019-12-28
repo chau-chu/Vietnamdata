@@ -1,3 +1,6 @@
 # Vietnamdata
-There are discrepancies in measuring constraints in wave2005 and wave2007, although these waves share somewhat similar constraints. Particularly, in wave 2005, business constraints from q137b_01 to q137b_21: 20 constraints are ranked in order of importance from 1 to 10 or lower; q137b_21 refers to no constraint. Wave 2007, however, only lists most, second most and third most important constraints - variables q133a2_1 q133a2_2 q133a2_3, respectively. 
-Our aim is to create 15 constraint dummies (constr1-constr15) which refer to a range of constraints regardless of order of importance. Thus, to be consistent, in wave2005, such newly-created constraint dummies refer to most, second most and third most important constraints only.   
+There are 2 waves of data available: 2005 and 2007.  
+We solve some problems here:
+(1) Merge different data waves
+(2) Construct business constraint variables
+(3) 
